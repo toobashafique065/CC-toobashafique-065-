@@ -1,0 +1,10 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.pem
+*.key
+*.log
+.env
+.terraform.lock.hcl
+outputs.json
