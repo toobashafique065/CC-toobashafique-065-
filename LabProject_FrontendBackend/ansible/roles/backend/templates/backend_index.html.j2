@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head><title>Backend {{ inventory_hostname }}</title></head>
+<body>
+  <h1>Backend server: {{ inventory_hostname }}</h1>
+  <p>Public IP: {{ ansible_host | default('unknown') }}</p>
+</body>
+</html>

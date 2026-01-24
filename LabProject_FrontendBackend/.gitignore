@@ -1,0 +1,14 @@
+# Terraform junk
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Sensitive files
+*.tfvars
+*.pem
+
+# Editor/OS junk
+*.swp
+*.log
+.DS_Store
